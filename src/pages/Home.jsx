@@ -27,18 +27,9 @@ const Home = () => {
   return (
     <section className='section_home'> 
       <div className='h1_home'> <h1>Bienvenidos a Next Well  </h1> </div>
-      <div className='img_home'> 
-      {imagenes.map((imagen, index) => (
-          <img
-            key={index}
-            src={imagen}
-            alt={`Imagen ${index + 1}`}
-            className={`image ${index === rotacionIma ? 'visible' : ''}`}
-          />
-        ))}
+    
       
-      
-       </div>
+       
     </section>
   )
 }
