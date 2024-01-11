@@ -1,0 +1,56 @@
+:root{
+    --colorFondo:rgb(235, 245, 251 );
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.logo_python{
+    width: 12%;
+    float: left;
+    padding: 1px;
+    
+}
+
+ul,li{
+    list-style: none;
+   display: inline-block;
+}
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+           
+    }
+
+
+
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; /* Asegura que el contenido no se desborde si la opacidad se aplica al contenedor */
+  }
+  
+  .contenedor::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url(im1.jpeg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(im2.jpeg); 
+    z-index: -1; /* Asegura que el pseudo-elemento esté detrás del contenido */
+  }
