@@ -26,7 +26,7 @@ const Transicion = () => {
  }, [imagenes.length])
  
  return (
-   <section className='section_home'> 
+   <section className='section_trans'> 
      <div className='h1_home'> <h1>Bienvenidos a Next Well  </h1> </div>
      <div className='img_home'> 
      {imagenes.map((imagen, index) => (

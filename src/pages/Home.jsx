@@ -4,31 +4,23 @@ import './stiles/Home.css'
 
 
 const Home = () => {
-  //estado de rotación
+  
 
-  const [rotacionIma, setRotacionIma] = useState(0)
-
-  //imagenes que se quieran agreagar a la rotación de inicio
-  const imagenes=[
-    'camion.jpg',    
-    'next.png',
-    'python_1.png',
-    '1.jpeg',
-  ]
-
-  useEffect(() => {
-    const rotation=setInterval(()=>{
-      setRotacionIma((prevIndex)=>(prevIndex+1)%imagenes.length)
-    },3000)
-
-    return()=>clearInterval(rotation)
-  }, [imagenes.length])
   
   return (
-    <section className='section_home'> 
-      <div className='h1_home'> <h1>Bienvenidos a Next Well  </h1> </div>
     
-      
+    
+
+    <section className='section_home'> 
+     <div className='text_content'>
+
+      <div className='h_home'> <h1 className='title_home'>FIBER OPTIC  </h1> </div>
+      <div className='h1_home'> <h1 className='title_home'>AND ELECTRIC LINE SERVICES  </h1> </div>
+      <div className='h3_home'> <h3 className='title_home2'>DISRUPTIVE INNOVATION  </h3> </div>
+
+     </div>
+    
+      <div className='img_home'> <img src="im2.jpeg" alt="" /></div>
        
     </section>
   )
