@@ -29,9 +29,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 10%;
+  height: 100%;
   object-fit: cover; /* Mantiene las proporciones y cubre completamente el contenedor */
-  object-position: center;
+  object-position: cover;
   
 }
 
@@ -63,7 +63,7 @@
   }
   .section_home{
     
-    right: 4%;
+    /* right: 4%; */
     
    
   }
