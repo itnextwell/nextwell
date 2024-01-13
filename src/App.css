@@ -1,5 +1,6 @@
 :root{
     --colorFondo:rgb(235, 245, 251 );
+    --colorNegro:rgb(0, 0, 0);
 }
 
 img{
@@ -8,12 +9,7 @@ img{
     
 }
 
-.logo_python{
-    width: 12%;
-    float: left;
-    padding: 1px;
-    
-}
+
 
 ul,li{
     list-style: none;

@@ -2,6 +2,7 @@
     text-decoration: none;
     color: rgb(48, 113, 170);
     font-weight: bold;
+    font-size: 1rem;
 }
 .link::before{
     width: 100%;
@@ -39,22 +40,123 @@
     
 }
 .menu{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
    
 }
 
 .header_nav{
-    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    justify-content: flex-end;
+   padding: 5px 10px 0 0;
+   
 
 }
 .header_li{
+    
    margin-left: 75px;
    padding: 18px 0;
    float: left;
    position: relative;
 }
 
+
+.logo_python{
+    width: 10%;
+    float: left;
+    
+    
+}
+.header_ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+    z-index:5;
+    
+}
+
+
+
 @media(max-width:800px){
+   
+
+    .logo_python{
+        width: 20%;
+       
+        
+    }
+
+    .link{
+       
+        font-size: 0.8rem;
+    }
+
+    .header_ul{
+    
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    
+        height: 200px;
+        top: 30px;
+        width: 100%;
+        
+        transform: translate(-100%);
+        transition: 0.3s ease all;
+        opacity: 90%;
+        /* border-top-right-radius:0.2em ;
+        border-bottom-right-radius: 0.2em; */
+        justify-content: end;
+        
+        
+    }
+    .header_ul.open{
+        transform: translateX(0) !important;
+        background-color:var(--colorFondo);
+        display: flex;
+        top: 3em;
+
+    }
+    .nav_toggle{
+        display: flex !important;
+        position: absolute;
+        font-size: 1em;
+        
+        width: 50%;
+        top: 1em;       
+        justify-content: right;
+        height: 5vw;
+        
+        
+        
+            
+    }
+    .bx-menu{
+        /* colores del menu hamburguesa */
+        font-size: 1.5em;
+        padding: 0.2em;
+        cursor: pointer;
+        
+        /* border: var(--colorNegro) solid 0.1px ; */
+
+    }
+    
+    .nav_toggle.open > span{
+        transform: rotate(45deg) translate(0px,0px);
+    
+      }
+    
+      .nav_toggle.open > span:nth-child(2){
+        display: none;
+      }
+    
+      .nav_toggle.open > span:nth-child(3){
+        transform: rotate(-45deg) translate(-5px,1px);
+      }
+
     
 }

@@ -1,8 +1,11 @@
 import { Link, useNavigate } from "react-router-dom"
 import './stiles/Header.css'
+import { useState } from "react"
 
 const Header = () => {
-
+  const [isOpen, setIsOpen] = useState(false)
+  const hanbleClick=()=>setIsOpen(!isOpen)
+  
   const navigate=useNavigate()
   const handleInit=()=>{
     navigate('/')
@@ -17,10 +20,15 @@ const Header = () => {
               </div>
            
             <nav className="header_nav">
-                <lu className="header_lu">
+                <ul className={`header_ul ${isOpen && "open"}`}>
                     <li className="header_li" ><Link className="link" to='/'>Inicio</Link></li>
                     <li className="header_li" ><Link className="link" to='/about'>Quienes somos</Link></li>
-                </lu>
+                </ul>
+                <div className={`nav_toggle ${isOpen && "open"}`} onClick={hanbleClick}>
+                  <spa><i className='bx bx-menu'></i></spa>
+                  <spa></spa>
+                  <spa></spa>
+                </div>
             </nav>
             </div>
         </header>
