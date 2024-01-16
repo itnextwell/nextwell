@@ -68,6 +68,8 @@
 
 
 
+
+
 @media(max-width:1000px){
   .img_home {
     display: flex;
@@ -79,4 +81,5 @@
     margin: auto; /* Alinea el bloque en el centro horizontalmente */
       
   }
+
 }

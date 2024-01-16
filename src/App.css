@@ -1,6 +1,7 @@
 :root{
     --colorFondo:rgb(235, 245, 251 );
     --colorNegro:rgb(0, 0, 0);
+    --colorBeige:rgb(239, 239, 231); 
 }
 
 img{

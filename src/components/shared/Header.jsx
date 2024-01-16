@@ -25,9 +25,8 @@ const Header = () => {
                     <li className="header_li" ><Link className="link" to='/about'>Quienes somos</Link></li>
                 </ul>
                 <div className={`nav_toggle ${isOpen && "open"}`} onClick={hanbleClick}>
-                  <spa><i className='bx bx-menu'></i></spa>
-                  <spa></spa>
-                  <spa></spa>
+                <span><i className='bx bx-menu'></i></span>
+                    
                 </div>
             </nav>
             </div>
