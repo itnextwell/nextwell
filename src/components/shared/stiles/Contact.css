@@ -1,0 +1,26 @@
+.seccion_contact{
+    padding: 2em 0 2em 5em;
+    color: var(--colorFondo);
+}
+
+.imag_section_contac{
+    width: 10%;
+}
+
+.article_contact{
+    line-height: 1.5;
+    padding-top:1em ;
+}
+
+.title_contact{
+    padding-bottom: 1em;
+    
+
+}
+
+@media(max-width:1000px){
+    .imag_section_contac{
+        width: 30%;
+    }
+  
+  }

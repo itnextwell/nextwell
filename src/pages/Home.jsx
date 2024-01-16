@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './stiles/Home.css'
 import News from '../components/shared/News'
 import Hsq from '../components/shared/Hsq'
+import Contact from '../components/shared/Contact'
 
 
 
@@ -29,12 +30,15 @@ const Home = () => {
     <section className='seccion_hsq'>
             <Hsq/>
     </section>
-        <section className='seccion_news' >
-          
+        <section className='seccion_news' >          
           <News/>
 
         </section>
        
+       <section className='seccion_contact'>
+        <Contact/>
+
+       </section>
 
 
     </div>
