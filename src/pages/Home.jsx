@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './stiles/Home.css'
 import News from '../components/shared/News'
+import Hsq from '../components/shared/Hsq'
 
 
 
@@ -24,7 +25,12 @@ const Home = () => {
       <div> <img className='img_home' src="im2.jpeg" alt="" /></div>
        
     </section>
+
+    <section className='seccion_hsq'>
+            <Hsq/>
+    </section>
         <section className='seccion_news' >
+          
           <News/>
 
         </section>
