@@ -1,0 +1,15 @@
+
+.logos_cer{
+    display: flex;
+    background-color:var(--colorNegro) ;
+    justify-content: center;
+    padding: 1em;
+    gap: 4em;
+
+} 
+
+.logos_iso{
+    width: 100px;
+    
+    
+}

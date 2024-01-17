@@ -18,6 +18,63 @@
 
 }
 
+.enlaces_seccion{
+    padding-top: 1em;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.enlaces{
+    width: 10em;
+    padding: 0.8em;
+    
+    
+}
+
+.cont_enlaces{
+    display: flex;
+    
+}
+
+
+.bx-envelope,.bx-map,.bxl-whatsapp,.bxl-linkedin{
+    color:var(--colorNegro);
+    background-color: var(--colorFondo);
+    font-size: 2.5em;
+    width: 1.5em;
+    display: flex;
+    justify-content: center;
+    border-radius: 15%;
+   
+    
+}
+
+.bxl-linkedin:hover{
+    transform: scale(1.05);
+}
+
+.bx-envelope:hover{
+    transform: scale(1.05);
+}
+
+.bx-map:hover{
+    transform: scale(1.05);
+}
+
+.bxl-whatsapp:hover{
+    transform: scale(1.05);
+}
+
+.bx-user-voice{
+    color:var(--colorFondo);
+    
+    font-size: 1.5em;
+    width: 1.5em;
+    
+}
+
 @media(max-width:1000px){
     .imag_section_contac{
         width: 30%;

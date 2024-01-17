@@ -3,6 +3,7 @@ import './stiles/Home.css'
 import News from '../components/shared/News'
 import Hsq from '../components/shared/Hsq'
 import Contact from '../components/shared/Contact'
+import Logos from '../components/shared/Logos'
 
 
 
@@ -39,6 +40,14 @@ const Home = () => {
         <Contact/>
 
        </section>
+
+       <section>
+       <Logos/>
+       </section>
+
+       <footer className='footer_home'>
+        <p>Copyright © 2019-2024 NEXT-WELL SAS - All Rights Reserved.</p>
+       </footer>
 
 
     </div>

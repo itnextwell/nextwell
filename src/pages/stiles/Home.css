@@ -66,7 +66,14 @@
   background: linear-gradient(to right,rgba(0, 0, 0,0.35)20%, rgba(215, 18, 18)60%,rgba(0, 0, 0,0.35)80%);
 }
 
-
+.footer_home{
+  background-color: var(--colorNegro);
+  color: var(--colorFondo);
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  padding: 8px;
+}
 
 
 
@@ -80,6 +87,9 @@
     height: 50%; /* Ajusta la altura según tus necesidades */
     margin: auto; /* Alinea el bloque en el centro horizontalmente */
       
+  }
+  .footer_home{
+    font-size: 0.8em;
   }
 
 }

@@ -10,6 +10,9 @@ img{
     
 }
 
+a{
+  text-decoration: none;
+}
 
 
 ul,li{
@@ -50,7 +53,7 @@ ul,li{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;  */
-  background: linear-gradient(to right,rgba(0, 0, 0,0.35)20%, rgba(215, 18, 18)60%,rgba(0, 0, 0,0.35)80%);
+  background: linear-gradient(to right,rgba(0, 0, 0,0.35)20%, rgb(215, 18, 18)60%,rgba(0, 0, 0,0.35)80%);
   background-color: rgb(2, 2, 2);
   
   
