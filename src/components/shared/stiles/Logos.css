@@ -13,3 +13,11 @@
     
     
 }
+
+.cont_logos{
+    color: var(--colorFondo);
+}
+
+.codigo{
+    padding: 1em;
+}

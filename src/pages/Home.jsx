@@ -4,10 +4,13 @@ import News from '../components/shared/News'
 import Hsq from '../components/shared/Hsq'
 import Contact from '../components/shared/Contact'
 import Logos from '../components/shared/Logos'
-
+import Vibrant from 'node-vibrant';
 
 
 const Home = () => {
+
+
+
   
 
   
@@ -24,7 +27,7 @@ const Home = () => {
 
      </div>
     
-      <div> <img className='img_home' src="im2.jpeg" alt="" /></div>
+      <div> <img className='img_home' src="im3.jpeg" alt="" /></div>
        
     </section>
 
