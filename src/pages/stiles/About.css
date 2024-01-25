@@ -1,3 +1,8 @@
 .section_about{
     color: var(--colorFondo);
 }
+
+
+.container_about{
+    padding-top: 5em;
+}

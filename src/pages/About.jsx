@@ -4,28 +4,26 @@ const About = () => {
   return (
     <div>
       <section className='section_about'>
+<div className='container_about'>
 
-<img className='logo_vision' src="f7.jpg" alt="" />
-<h2>Visión</h2>
-<p>
-    NEXT-WELL S.A.S quiere ser reconocida como una empresa
-    que satisface las necesidades y expectativas de nuestros
-    clientes que nos permita tener reconocimiento en la industria
-    petrolera, siendo una empresa rentable, transparente, ambientalmente
-    sostenible, cumplidora de todos los deberes legales o de otra índole
-    suscritos con las partes interesadas.
+<h2>Quienes somos</h2>
+<p >
+NEXT-WELL es una compañía de innovación
+tecnológica para el sector hidrocarburos, que busca
+generar la diferencia en los servicios que suministra,
+mediante tecnología disruptiva de punta, para brindar
+soluciones que generen verdadero valor a sus clientes,
+rompiendo paradigmas y demostrando que si es posible
+en Colombia hacer algo nuevo, generando tecnología y
+conocimiento para la industria, enmarcados en un
+ambiente de respeto por el medio ambiente, buenas
+relaciones con las partes interesadas, total calidad y
+seguridad en sus operaciones.
 
 </p>
 
-<img className='logo_mision' src="f8.jpg" alt="" />
 
-<h2>Misión</h2>
-
-<p>
-NEXT-WELL SAS, es una empresa que provee servicios con tecnología de 
-fibra óptica para registros eléctricos en servicios a pozos y su interpretación, garantizando innovación y calidad en la prestación del servicio, en el marco del cumplimiento legal ambiental, 
-de seguridad industrial dentro de objetivos de la organización.
-</p>
+</div>
 
 </section>
       
