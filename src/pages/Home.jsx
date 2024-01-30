@@ -9,6 +9,7 @@ import Message_1 from '../components/shared/Message_1'
 import Messaje_2 from '../components/shared/Messaje_2'
 
 
+
 const Home = () => {
 
 
@@ -46,7 +47,7 @@ const Home = () => {
        
         <section className='seccion_mess2'>
         <Messaje_2/>
-       </section>
+       </section>      
 
        <section className='seccion_contact'>
         <Contact/>

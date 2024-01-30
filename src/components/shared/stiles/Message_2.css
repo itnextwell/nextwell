@@ -1,4 +1,5 @@
 .seccion_mess2{
+    padding-top: 30px;
     padding-bottom: 30px;
     position: relative;
     
@@ -15,22 +16,7 @@
     
 }
 
-.section_msj_im2{
-    
-    /* width: 100%; 
-    display: flex;
-    flex-wrap: wrap;
 
-    gap: 2em;
-    padding: 10px;
-    text-align: center;
-    justify-content: center; */
-
-
-    
-
-
-}
 
 .section_msj2{
    display: flex;

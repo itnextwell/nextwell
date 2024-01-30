@@ -23,6 +23,7 @@ const Header = () => {
                 <ul className={`header_ul ${isOpen && "open"}`}>
                     <li className="header_li" ><Link className="link" to='/'>Inicio</Link></li>
                     <li className="header_li" ><Link className="link" to='/about'>Quienes somos</Link></li>
+                    <li className="header_li" ><Link className="link" to='/product'>Productos y Servicios</Link></li>
                 </ul>
                 <div className={`nav_toggle ${isOpen && "open"}`} onClick={hanbleClick}>
                 <span><i className='bx bx-menu'></i></span>

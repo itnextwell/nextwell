@@ -1,25 +1,27 @@
-.section_about{
+.section_add{
     /* color: var(--colorFondo); */
     display: flex;
    
-    padding: 3em;
+    padding: 1em;
+    background-color: var(--colorFondo);
     
 }
 
 
-.container_about{
-    padding-top: 5em;
+.container_add{
+    padding-bottom: 1em;
+    
 
 }
 
-.img_about{
+.img_add{
     width: 50%;
     
     padding: 1em;
     
 }
 
-.parrafos_about{
+.parrafos_add{
     width: 50%;
     font-size:1.3vw;
    display: flex;
@@ -29,55 +31,37 @@
     
 }
 
-.about_imag{
+.add_imag{
     width: 100%;
     /* -webkit-box-reflect: below 1px linear-gradient(transparent, rgb(15, 15, 15)); */
 }
-.parrafo_1{
+.parrafo_add{
     padding: 0 2em 0 2em;
     word-spacing: 10px;
     
 
 }
-.par_1{
+.par_add{
     background-color: var(--colorFondo);
     padding: 2em;
-    box-shadow: 0 0 10px rgba(16, 15, 15, 0.993);
+    /* box-shadow: 0 0 10px rgba(16, 15, 15, 0.993); */
+    text-align:justify ;
    
 }
 
-.par_2{
-    background-color: var(--colorFondo);
-    padding: 2em;
-    box-shadow: 0 0 10px rgba(16, 15, 15, 0.993);
-}
-
-.parrafo_2{
-    padding: 1em 3em 0 3em;
-    word-spacing: 10px;
-    
-    
-}
-
-.letter_1{
+.letter_add{
     font-family: "Brush Script MT", "Brush Script Std", "cursive";
-    font-size:2.3vw;
+    font-size:2.6vw;
     color: var(--colorRed);
     font-weight: bolder;
     
 
 }
 
-.letter_2{
-    font-family: "Brush Script MT", "Brush Script Std", "cursive";
-    font-size:2.6vw;
-    color: #164294;
-    font-weight: bolder;
 
-}
 
 @media(max-width:800px){
-    .section_about{
+    .section_add{
         /* color: var(--colorFondo); */
         display: flex;
         flex-direction: column;
